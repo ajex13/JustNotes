@@ -1,0 +1,19 @@
+1)
+$ sudo git clone git://github.com/ysbaddaden/prax.git /opt/prax
+2)
+$ cd /opt/prax/
+$ ./bin/prax install  
+
+3)
+link the apps:
+
+$ cd ~/some_folder/app_name
+$ prax link
+
+4)
+If you want to start the prax server automatically, add this line to the .profile file:
+
+prax start
+
+5)
+http://app_name.dev:3000
